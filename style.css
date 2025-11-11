@@ -1,0 +1,122 @@
+
+body {
+    font-family: 'Arial', sans-serif; 
+    color: #333; 
+    background-color: #dbdbdf; 
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    text-align: center; 
+}
+
+
+.konten-utama {
+    background-image: url('images/bg-pattern.png'); 
+    background-repeat: repeat;
+    padding: 20px;
+}
+
+
+.header-flex {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #8B0000; 
+    color: white;
+    
+    padding: 15px 50px; 
+    border-bottom: 3px solid #FFD700;
+}
+
+/* NAVIGASI/MENU */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li a {
+    color: rgb(16, 1, 1);
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+  
+    margin: 0 5px; 
+    
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #34495e;
+    border-radius: 5px;
+}
+
+
+
+.konten-utama {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    gap: 30px;
+}
+
+main {
+    flex: 3; 
+    padding: 20px;
+    background-color: white;
+  
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.sidebar {
+    flex: 1; 
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    
+    padding: 20px;
+    border: 1px dashed #bdc3c7;
+}
+
+
+.footer-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #8B0000;
+    color: #ecf0f1;
+    padding: 20px;
+    font-size: 0.9em;
+}
+
+
+.keahlian-list li {
+    background-color: #8B0000 ;
+    color: white;
+  
+    padding: 8px 15px; 
+    margin-bottom: 10px;
+    border-radius: 5px;
+    list-style-type: none; 
+    transition: background-color 0.3s;
+}
+
+.keahlian-list li:hover {
+    background-color: #8B0000;
+    transform: scale(1.05); 
+}
+
+
+.profil-foto img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%; 
+    margin: 15px 0;
+    border: 5px solid #3498db;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
